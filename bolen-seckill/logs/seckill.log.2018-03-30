@@ -1,0 +1,189 @@
+2018-03-30 22:59:11 [ INFO ] [ ContextLoader.java :304(initWebApplicationContext)]  Root WebApplicationContext: initialization started
+2018-03-30 22:59:11 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing Root WebApplicationContext: startup date [Fri Mar 30 22:59:11 CST 2018]; root of context hierarchy
+2018-03-30 22:59:11 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext-jdbc.xml]
+2018-03-30 22:59:12 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext.xml]
+2018-03-30 22:59:12 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 22:59:13 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-03-30 22:59:13 [ INFO ] [ ContextLoader.java :344(initWebApplicationContext)]  Root WebApplicationContext: initialization completed in 2636 ms
+2018-03-30 22:59:14 [ INFO ] [ FrameworkServlet.java :489(initServletBean)]  FrameworkServlet 'springMVC': initialization started
+2018-03-30 22:59:14 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 22:59:14 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 22:59:14 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]
+2018-03-30 22:59:14 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 22:59:14 [ INFO ] [ AbstractHandlerMethodMapping$MappingRegistry.java :543(register)]  Mapped "{[/seckill/order]}" onto public void com.bolen.seckill.controller.SeckillController.order(java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletResponse)
+2018-03-30 22:59:15 [ INFO ] [ RequestMappingHandlerAdapter.java :534(initControllerAdviceCache)]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 22:59:14 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 22:59:15 [ INFO ] [ FrameworkServlet.java :508(initServletBean)]  FrameworkServlet 'springMVC': initialization completed in 1087 ms
+2018-03-30 23:00:26 [ INFO ] [ ContextLoader.java :304(initWebApplicationContext)]  Root WebApplicationContext: initialization started
+2018-03-30 23:00:26 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing Root WebApplicationContext: startup date [Fri Mar 30 23:00:26 CST 2018]; root of context hierarchy
+2018-03-30 23:00:26 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext-jdbc.xml]
+2018-03-30 23:00:26 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext.xml]
+2018-03-30 23:00:27 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:00:27 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-03-30 23:00:28 [ INFO ] [ ContextLoader.java :344(initWebApplicationContext)]  Root WebApplicationContext: initialization completed in 2350 ms
+2018-03-30 23:00:28 [ INFO ] [ FrameworkServlet.java :489(initServletBean)]  FrameworkServlet 'springMVC': initialization started
+2018-03-30 23:00:28 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:00:28 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:00:28 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]
+2018-03-30 23:00:28 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:00:29 [ INFO ] [ AbstractHandlerMethodMapping$MappingRegistry.java :543(register)]  Mapped "{[/seckill/order]}" onto public void com.bolen.seckill.controller.SeckillController.order(java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletResponse)
+2018-03-30 23:00:29 [ INFO ] [ RequestMappingHandlerAdapter.java :534(initControllerAdviceCache)]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:00:28 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:00:29 [ INFO ] [ FrameworkServlet.java :508(initServletBean)]  FrameworkServlet 'springMVC': initialization completed in 787 ms
+2018-03-30 23:02:03 [ INFO ] [ AbstractApplicationContext.java :987(doClose)]  Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:00:28 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:02:03 [ INFO ] [ AbstractApplicationContext.java :987(doClose)]  Closing Root WebApplicationContext: startup date [Fri Mar 30 23:00:26 CST 2018]; root of context hierarchy
+2018-03-30 23:02:03 [ INFO ] [ DruidDataSource.java :1385(close)]  {dataSource-1} closed
+2018-03-30 23:02:09 [ INFO ] [ ContextLoader.java :304(initWebApplicationContext)]  Root WebApplicationContext: initialization started
+2018-03-30 23:02:09 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing Root WebApplicationContext: startup date [Fri Mar 30 23:02:09 CST 2018]; root of context hierarchy
+2018-03-30 23:02:09 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext-jdbc.xml]
+2018-03-30 23:02:09 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext.xml]
+2018-03-30 23:02:10 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:02:10 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-03-30 23:02:11 [ INFO ] [ ContextLoader.java :344(initWebApplicationContext)]  Root WebApplicationContext: initialization completed in 2007 ms
+2018-03-30 23:02:11 [ INFO ] [ FrameworkServlet.java :489(initServletBean)]  FrameworkServlet 'springMVC': initialization started
+2018-03-30 23:02:11 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:02:11 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:02:11 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]
+2018-03-30 23:02:11 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:02:11 [ INFO ] [ AbstractHandlerMethodMapping$MappingRegistry.java :543(register)]  Mapped "{[/seckill/order]}" onto public void com.bolen.seckill.controller.SeckillController.order(java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletResponse)
+2018-03-30 23:02:11 [ INFO ] [ RequestMappingHandlerAdapter.java :534(initControllerAdviceCache)]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:02:11 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:02:12 [ INFO ] [ FrameworkServlet.java :508(initServletBean)]  FrameworkServlet 'springMVC': initialization completed in 842 ms
+2018-03-30 23:02:15 [ INFO ] [ AbstractApplicationContext.java :987(doClose)]  Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:02:11 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:02:15 [ INFO ] [ AbstractApplicationContext.java :987(doClose)]  Closing Root WebApplicationContext: startup date [Fri Mar 30 23:02:09 CST 2018]; root of context hierarchy
+2018-03-30 23:02:15 [ INFO ] [ DruidDataSource.java :1385(close)]  {dataSource-1} closed
+2018-03-30 23:02:19 [ INFO ] [ ContextLoader.java :304(initWebApplicationContext)]  Root WebApplicationContext: initialization started
+2018-03-30 23:02:19 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing Root WebApplicationContext: startup date [Fri Mar 30 23:02:19 CST 2018]; root of context hierarchy
+2018-03-30 23:02:19 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext-jdbc.xml]
+2018-03-30 23:02:20 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext.xml]
+2018-03-30 23:02:20 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:02:21 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-03-30 23:02:21 [ INFO ] [ ContextLoader.java :344(initWebApplicationContext)]  Root WebApplicationContext: initialization completed in 2172 ms
+2018-03-30 23:02:21 [ INFO ] [ FrameworkServlet.java :489(initServletBean)]  FrameworkServlet 'springMVC': initialization started
+2018-03-30 23:02:21 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:02:21 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:02:21 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]
+2018-03-30 23:02:22 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:02:22 [ INFO ] [ AbstractHandlerMethodMapping$MappingRegistry.java :543(register)]  Mapped "{[/seckill/order]}" onto public void com.bolen.seckill.controller.SeckillController.order(java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletResponse)
+2018-03-30 23:02:22 [ INFO ] [ RequestMappingHandlerAdapter.java :534(initControllerAdviceCache)]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:02:21 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:02:22 [ INFO ] [ FrameworkServlet.java :508(initServletBean)]  FrameworkServlet 'springMVC': initialization completed in 623 ms
+2018-03-30 23:03:59 [ INFO ] [ AbstractApplicationContext.java :987(doClose)]  Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:02:21 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:03:59 [ INFO ] [ AbstractApplicationContext.java :987(doClose)]  Closing Root WebApplicationContext: startup date [Fri Mar 30 23:02:19 CST 2018]; root of context hierarchy
+2018-03-30 23:03:59 [ INFO ] [ DruidDataSource.java :1385(close)]  {dataSource-1} closed
+2018-03-30 23:04:04 [ INFO ] [ ContextLoader.java :304(initWebApplicationContext)]  Root WebApplicationContext: initialization started
+2018-03-30 23:04:04 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing Root WebApplicationContext: startup date [Fri Mar 30 23:04:04 CST 2018]; root of context hierarchy
+2018-03-30 23:04:04 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext-jdbc.xml]
+2018-03-30 23:04:04 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext.xml]
+2018-03-30 23:04:05 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:04:05 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-03-30 23:04:06 [ INFO ] [ ContextLoader.java :344(initWebApplicationContext)]  Root WebApplicationContext: initialization completed in 2386 ms
+2018-03-30 23:04:06 [ INFO ] [ FrameworkServlet.java :489(initServletBean)]  FrameworkServlet 'springMVC': initialization started
+2018-03-30 23:04:06 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:04:06 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:04:06 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]
+2018-03-30 23:04:06 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:04:07 [ INFO ] [ AbstractHandlerMethodMapping$MappingRegistry.java :543(register)]  Mapped "{[/seckill/order]}" onto public void com.bolen.seckill.controller.SeckillController.order(java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletResponse)
+2018-03-30 23:04:10 [ WARN ] [ AbstractApplicationContext.java :550(refresh)]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' defined in URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Constructor threw exception; nested exception is java.lang.OutOfMemoryError: PermGen space
+2018-03-30 23:04:10 [ ERROR ] [ FrameworkServlet.java :502(initServletBean)]  Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' defined in URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Constructor threw exception; nested exception is java.lang.OutOfMemoryError: PermGen space
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:612)
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:395)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:871)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.startWebapp(JettyWebAppContext.java:296)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:365)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.maven.plugin.JettyRunMojo.restartWebApp(JettyRunMojo.java:541)
+	at org.eclipse.jetty.maven.plugin.JettyRunMojo$1.filesChanged(JettyRunMojo.java:494)
+	at org.eclipse.jetty.util.Scanner.reportBulkChanges(Scanner.java:685)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:539)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner$1.run(Scanner.java:329)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Constructor threw exception; nested exception is java.lang.OutOfMemoryError: PermGen space
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 36 more
+Caused by: java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.findClass(WebAppClassLoader.java:510)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:441)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:403)
+	at org.springframework.http.converter.json.Jackson2ObjectMapperBuilder.build(Jackson2ObjectMapperBuilder.java:588)
+	at org.springframework.http.converter.json.MappingJackson2HttpMessageConverter.<init>(MappingJackson2HttpMessageConverter.java:57)
+	at org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter.<init>(AllEncompassingFormHttpMessageConverter.java:61)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.<init>(RequestMappingHandlerAdapter.java:182)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+2018-03-30 23:08:42 [ INFO ] [ ContextLoader.java :304(initWebApplicationContext)]  Root WebApplicationContext: initialization started
+2018-03-30 23:08:42 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing Root WebApplicationContext: startup date [Fri Mar 30 23:08:42 CST 2018]; root of context hierarchy
+2018-03-30 23:08:42 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext-jdbc.xml]
+2018-03-30 23:08:42 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext.xml]
+2018-03-30 23:08:43 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:08:44 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-03-30 23:08:44 [ INFO ] [ ContextLoader.java :344(initWebApplicationContext)]  Root WebApplicationContext: initialization completed in 2562 ms
+2018-03-30 23:08:44 [ INFO ] [ FrameworkServlet.java :489(initServletBean)]  FrameworkServlet 'springMVC': initialization started
+2018-03-30 23:08:44 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:08:44 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:08:44 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]
+2018-03-30 23:08:45 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:08:45 [ INFO ] [ AbstractHandlerMethodMapping$MappingRegistry.java :543(register)]  Mapped "{[/seckill/order]}" onto public void com.bolen.seckill.controller.SeckillController.order(java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletResponse)
+2018-03-30 23:08:45 [ INFO ] [ RequestMappingHandlerAdapter.java :534(initControllerAdviceCache)]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:08:44 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:08:45 [ INFO ] [ FrameworkServlet.java :508(initServletBean)]  FrameworkServlet 'springMVC': initialization completed in 733 ms
+2018-03-30 23:09:10 [ WARN ] [ DispatcherServlet.java :1172(noHandlerFound)]  No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'springMVC'
+2018-03-30 23:09:10 [ WARN ] [ DispatcherServlet.java :1172(noHandlerFound)]  No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springMVC'
+2018-03-30 23:10:08 [ WARN ] [ DispatcherServlet.java :1172(noHandlerFound)]  No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'springMVC'
+2018-03-30 23:12:04 [ INFO ] [ SeckillServiceImpl.java :20(order)]  hahaha
+2018-03-30 23:12:44 [ INFO ] [ ContextLoader.java :304(initWebApplicationContext)]  Root WebApplicationContext: initialization started
+2018-03-30 23:12:44 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing Root WebApplicationContext: startup date [Fri Mar 30 23:12:44 CST 2018]; root of context hierarchy
+2018-03-30 23:12:44 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext-jdbc.xml]
+2018-03-30 23:12:44 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from file [E:\eclipseEE\workspace\bolen-seckill\bolen-seckill-web\target\classes\applicationContext.xml]
+2018-03-30 23:12:45 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:12:45 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-03-30 23:12:46 [ INFO ] [ ContextLoader.java :344(initWebApplicationContext)]  Root WebApplicationContext: initialization completed in 2427 ms
+2018-03-30 23:12:46 [ INFO ] [ FrameworkServlet.java :489(initServletBean)]  FrameworkServlet 'springMVC': initialization started
+2018-03-30 23:12:46 [ INFO ] [ AbstractApplicationContext.java :582(prepareRefresh)]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:12:46 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:12:46 [ INFO ] [ XmlBeanDefinitionReader.java :317(loadBeanDefinitions)]  Loading XML bean definitions from URL [file:/E:/eclipseEE/workspace/bolen-seckill/bolen-seckill-web/target/classes/springMVC.xml]
+2018-03-30 23:12:46 [ INFO ] [ AutowiredAnnotationBeanPostProcessor.java :155(<init>)]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-30 23:12:47 [ INFO ] [ AbstractHandlerMethodMapping$MappingRegistry.java :543(register)]  Mapped "{[/seckill/order]}" onto public void com.bolen.seckill.controller.SeckillController.order(java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletResponse)
+2018-03-30 23:12:47 [ INFO ] [ RequestMappingHandlerAdapter.java :534(initControllerAdviceCache)]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Mar 30 23:12:46 CST 2018]; parent: Root WebApplicationContext
+2018-03-30 23:12:47 [ INFO ] [ FrameworkServlet.java :508(initServletBean)]  FrameworkServlet 'springMVC': initialization completed in 738 ms
+2018-03-30 23:14:04 [ INFO ] [ SeckillServiceImpl.java :20(order)]  hahaha
+2018-03-30 23:17:10 [ INFO ] [ SeckillServiceImpl.java :20(order)]  hahaha

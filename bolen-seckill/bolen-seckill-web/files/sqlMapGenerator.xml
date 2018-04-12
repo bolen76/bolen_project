@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC
+"-//mybatis.org//DTD MyBatis Generator Configuration 
+1.0//EN"
+"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd"
+>
+<generatorConfiguration>
+	<!-- 制定oracle的驱动包的路径 千万别放中文路径下 -->
+	<classPathEntry location="E:\Maven_repository\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar" />
+	<!-- 配置数据源和生成的代码所存放的位置 -->
+	<context id="context1">
+		<jdbcConnection 
+			
+			driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost:3306/bolen_project" userId="root"
+			password="123"
+		/>
+		<!-- 所生成的实体类的位置默认资源包src -->
+		<javaModelGenerator targetPackage="com.bolen.seckill.dao.model" targetProject="bolen-seckill-dao" />
+		<!-- 所生成的sqlMap的影射文件的位置,默认资源包src -->
+		<sqlMapGenerator targetPackage="com.bolen.seckill.dao.mapper" targetProject="bolen-seckill-dao" />
+		   <!-- 生成mapxml对应client，也就是接口dao -->      
+        <javaClientGenerator targetPackage="com.bolen.seckill.dao.mapper"  
+            targetProject="bolen-seckill-dao" type="XMLMAPPER" >  
+            <!-- 是否在当前路径下新加一层schema,eg：fase路径com.oop.eksp.user.model， true:com.oop.eksp.user.model.[schemaName] -->  
+            <property name="enableSubPackages" value="false" />  
+        </javaClientGenerator>  
+		<!-- 为哪些表生成代码 tableName:表名 schema:不用填写 -->
+		
+		<!-- <table schema="" tableName="seckill_product" enableCountByExample="false"
+			enableUpdateByExample="false" enableDeleteByExample="false"
+			enableSelectByExample="false" selectByExampleQueryId="false"
+		>
+		</table> -->
+		
+		<table schema="" tableName="seckill_order" enableCountByExample="false"
+			enableUpdateByExample="false" enableDeleteByExample="false"
+			enableSelectByExample="false" selectByExampleQueryId="false"
+		>
+		</table>
+
+	</context>
+</generatorConfiguration>
