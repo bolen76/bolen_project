@@ -4,6 +4,8 @@ import com.bolen.seckill.common.constant.OrderStatus;
 
 public class EnumTest {
 
+	
+	
 	@Test
 	public void test01() {
 		OrderStatus invalid = OrderStatus.PAYED;
